@@ -16,7 +16,13 @@ function greet (statementOne) {
 console.log (greet( 'Ali is a boy'))
 
 function fname(firstName,lastName) {
-    console.log(firstName + lastName);
+    console.log(firstName, lastName);
 }
 
 fname('Agbaje','Qudus');
+
+function footBaller(Player1,Player2){
+    console.log(Player1,Player2)
+}
+
+footBaller('messi','ronaldo')

@@ -3,3 +3,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.login-head{
+    font-size: 12px;
+    margin: 24px 0;
+}
+.login-head h1{
+    padding: 12px 0;
+}
+
+.google{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+.google img{
+    width: 25px;
+}
+
